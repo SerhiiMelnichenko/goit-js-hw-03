@@ -1,8 +1,10 @@
 function makeArray(firstArray, secondArray, maxLength) {
-    const firstSecondArray = firstArray.concat(secondArray)
-    if (firstSecondArray.length > maxLength) {
-        return firstSecondArray.slice(0, maxLength)
-    }else return firstSecondArray
+    //обєднати рядки
+    const togetherArray = firstArray.concat(secondArray)
+    // умова якщо к-ть елементів нового рядка більша maxLength
+    if (togetherArray.length > maxLength) {
+        return togetherArray.slice(0, maxLength)
+    }else return togetherArray
 
 }
 
