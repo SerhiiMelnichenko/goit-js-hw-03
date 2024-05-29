@@ -1,8 +1,8 @@
 function slugify(title) {
     // перетворюємо  весь рядок на нижні букви
-    const lowerCaseTitle = title.toLowerCase()
+    const tolowerCaseTitle = title.toLowerCase()
     // заміняємо пробіли на  тире
-    const slug = lowerCaseTitle.split(` `).join(`-`)
+    const slug = tolowerCaseTitle.split(` `).join(`-`)
     // виводимо результат
     return slug
 }
