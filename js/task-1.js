@@ -1,5 +1,10 @@
 function slugify(title) {
-    return title.toLowerCase()
+    // перетворюємо  весь рядок на нижні букви
+    const lowerCaseTitle = title.toLowerCase()
+    // заміняємо пробіли на  тире
+    const slug = lowerCaseTitle.split(` `).join(`-`)
+    // виводимо результат
+    return slug
 }
 
 
