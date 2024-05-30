@@ -4,7 +4,8 @@ function slugify(title) {
     // заміняємо пробіли на  тире
     const slug = tolowerCaseTitle.split(` `).join(`-`)
     // виводимо результат
-    return slug
+    return `"${slug}"`
+    
 }
 
 

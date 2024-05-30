@@ -4,7 +4,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     // умова якщо к-ть елементів нового рядка більша maxLength
     if (togetherArray.length > maxLength) {
         return togetherArray.slice(0, maxLength)
-    }else return togetherArray
+    } else return togetherArray
 
 }
 
